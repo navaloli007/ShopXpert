@@ -1,0 +1,12 @@
+<div style="padding: 2rem">
+  <h2>Login</h2>
+
+  <label>Choose Role:</label>
+  <select [(ngModel)]="selectedRole">
+    <option value="customer">Customer</option>
+    <option value="admin">Admin</option>
+  </select>
+
+  <br /><br />
+  <button (click)="login()">Login</button>
+</div>
